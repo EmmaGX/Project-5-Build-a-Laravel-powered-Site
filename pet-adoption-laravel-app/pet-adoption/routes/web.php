@@ -13,20 +13,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'App\Http\Controllers\AppController@index');
 
-Route::get('/', function () {
-    return view('index');
-});
-
-Route::get('/cats', function () {
-    return view('cats');
-});
-
-Route::get('/dogs', function () {
-    return view('dogs');
-});
+//Route::get('/', function () {
+//    return view('index');
+//});
+//
+//Route::get('/cats', function () {
+//    return view('cats');
+//});
+//
+//Route::get('/dogs', function () {
+//    return view('dogs');
+//});
 
 
