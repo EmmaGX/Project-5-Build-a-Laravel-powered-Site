@@ -1,4 +1,4 @@
-@extends('pet-welcome')
+@extends('index')
 @section('body')
 
     <!-- START main -->
