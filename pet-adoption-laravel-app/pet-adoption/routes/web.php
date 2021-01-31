@@ -14,9 +14,9 @@
 Route::get('/', 'AppController@index');
 
 Route::get('/cats', function () {
-    return view('welcome');
+    return view('cats');
 });
 
 Route::get('/dogs', function () {
-    return view('welcome');
+    return view('dogs');
 });
