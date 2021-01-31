@@ -2,7 +2,7 @@
 @section('body')
 
     <!-- START main -->
-{{--    <main role="main" class="container">--}}
+    <main role="main" class="container">
         <div class="row mb-4">
             <div class="col-lg-4 mb-4">
                 <div class="card bg-dark">
@@ -81,5 +81,5 @@
                 </div>
             </div>
         </div><!-- end row -->
-{{--    </main><!-- END main -->--}}
+    </main><!-- END main -->
 @endsection
