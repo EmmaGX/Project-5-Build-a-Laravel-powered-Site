@@ -7,13 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Cats or Dogs</title>
     <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../../../favicon.ico" type="image/x-icon">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Custom styles for this template -->
-    <link href="css/starter-template.css" rel="stylesheet">
+    <link href="../../public/starter-template.css" rel="stylesheet">
 </head>
 <!-- END nav.blade.php -->
 
@@ -25,7 +25,7 @@
         <div class="container">
         <a class="navbar-brand" href="/" style="border-right:2px; color: hotpink;">
             <span><i class="fas fa-paw"></i></span>
-            
+
         </a>
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto">
@@ -76,7 +76,7 @@
                         <h5 class="card-title text-light">Pet name</h5>
                     </div>
                 </div>
-            </div> 
+            </div>
         </div><!-- end row -->
         <div class="row mb-4">
             <div class="col-lg-4 mb-4">
@@ -102,7 +102,7 @@
                         <h5 class="card-title text-light">Pet name</h5>
                     </div>
                 </div>
-            </div> 
+            </div>
         </div><!-- end row -->
         <div class="row mb-4">
             <div class="col-lg-4 mb-4">
@@ -128,7 +128,7 @@
                         <h5 class="card-title text-light">Pet name</h5>
                     </div>
                 </div>
-            </div> 
+            </div>
         </div><!-- end row -->
     </main><!-- END main -->
 
@@ -147,7 +147,7 @@
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="None"></script>
-    <script src="js/script.js"></script>
+    <script src="../../public/script.js"></script>
     <!-- END footer.blade.php -->
 
 </body> <!-- END Body -->
