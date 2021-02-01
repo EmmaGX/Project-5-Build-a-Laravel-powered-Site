@@ -10,10 +10,11 @@
                     <a class="nav-link" href="/"><b>Home</b></a>
                 </li>
                 <li class="nav-item" style="color: hotpink;">
-                    <a class="nav-link" href="/cats.html"><b>Cats</b></a>
+                    <a class="nav-link {{ Request::path() === 'cats' ? 'active' : '' }}" href="/cats"><b>Cats</b></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/dogs.html"><b>Dogs</b></a>
+                    <a class="nav-link {{ Request::path() === 'dogs' ? 'active' : '' }}" href="/dogs"><b>Dogs</b></a>
+
                 </li>
 
             </ul>
