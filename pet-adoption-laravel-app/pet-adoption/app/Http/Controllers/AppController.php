@@ -9,4 +9,12 @@ class AppController extends Controller
     public function index() {
         return view('index');
     }
+
+    public function cat() {
+        return view('cats');
+    }
+
+    public function dog() {
+        return view('dogs');
+    }
 }
